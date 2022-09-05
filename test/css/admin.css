@@ -1,0 +1,53 @@
+.clearfix{
+    float: none;
+    clear: both;
+}
+.fail{
+    color: #F72A2A;
+}
+.header, .whole, .footer{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.content{
+    
+    width: 90%;
+    margin: 0px auto;
+}
+.content ul{
+    list-style-type: none;
+    
+}
+.content ul li{
+    display: inline-block;
+    
+    padding: 1%;
+}
+.content ul li a{
+    color: #F04B32;
+    text-decoration: none;
+    
+}
+.content ul li a:hover{
+    color: #E63419;
+    font-weight: bold;
+}
+.center{
+    text-align: center;
+    color: #F04B32;
+}
+.whole{
+    background-color: #EBEBEB;
+}
+.main-content{
+    height: 250px;
+    width: 90%;
+}
+.col-4{
+    width: 22%;
+    background-color: white;
+    padding: 1px;
+    margin: 1px;
+    float: left;
+}

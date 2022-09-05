@@ -1,0 +1,136 @@
+.clearfix{
+    float: none;
+    clear: both;
+}
+.header, .whole, .footer{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.content{
+    background-color: #F04B32;
+    width: 90%;
+    margin: 0px auto;
+}
+.content p{
+    color: white;
+}
+.content ul{
+    list-style-type: none;
+}
+.content ul li{
+    display: inline-block;
+    
+    padding: 1%;
+}
+.content ul li a{
+    color: white;
+    text-decoration: none;
+    
+}
+.content ul li a:hover{
+    color: #ece4e4;
+    font-weight: bold;
+}
+.center{
+    text-align: center;
+    color: #F04B32;
+}
+.whole{
+    background-color: #EBEBEB;
+}
+.main-content{
+    width: 90%;
+    margin: 0 5%;
+}
+.main-content .col-4{
+    width: 18%;
+    background-color: rgb(255, 255, 255);
+    padding: 1%;
+    margin: 2%;
+    float: left;
+}
+/* admin page */
+.whole .btn-primary{
+    padding: 1%;
+    border: 1px solid rgb(40, 51, 65);
+    /*border-radius: 1%;*/
+    background-color: #5061F7;
+    text-decoration: none;
+    font-weight: bold;
+    color: #EBEBEB;
+}
+.whole .btn-primary:hover{
+    background-color: #182FFF;
+}
+.whole .btn-secondary, .main-content .btn-secondary{
+    padding: 1%;
+    border: 1px solid rgb(52, 97, 80);
+    /*border-radius: 1%;*/
+    background-color: #55C62C;
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff;
+}
+.whole .btn-secondary:hover, .main-content .btn-secondary:hover{
+    background-color: #299502;
+}
+.main-content .tbl-full{
+    width: 100%;
+}
+.whole .btn-danger{
+    padding: 1%;
+    border: 1px solid rgb(87, 38, 45);
+    /*border-radius: 1%;*/
+    background-color: #F72A2A;
+    text-decoration: none;
+    font-weight: bold;
+    color: #EBEBEB;
+}
+.whole .btn-danger:hover{
+    background-color: #E70909;
+}
+.main-content table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+.main-content table tr td{
+    padding: 1%;
+    
+}
+.main-content .tbl-30{
+    width: 30%;
+
+}
+.success{
+    color: #299502;
+}
+.fail{
+    color: #F72A2A;
+}
+div.login{
+    margin: 5% auto;
+    border: 1px solid black;
+    padding: 3%;
+    width: 30%;
+    background-color: #F72A2A;
+}
+div.login h1,
+div.login p
+{
+    color: hwb(0 96% 3%);
+}
+.login form{
+    margin: auto;
+}
+.login form .submit{
+    padding: 6px 15px;
+    font-weight: bold;
+    color:black;
+    background-color:white;
+    padding: 5px 20px;
+}
+.main-content .wrapper table tr td {
+    width: 30%;
+}

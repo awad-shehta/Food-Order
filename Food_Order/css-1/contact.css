@@ -1,0 +1,53 @@
+body{
+    background-color: #f7f6f6;
+}
+.alert{
+    margin-bottom: 10px;;
+}
+.contact{
+    max-width: 500px;
+    margin: 50px auto;
+}
+.container .contact .form-group{
+    margin-bottom: 0px;
+    position: relative;
+}
+.container .contact .form-group .usererror,
+.container .contact .form-group .emailerror,
+.container .contact .form-group .msgerror
+{
+    padding: 5px;
+    display: none;
+}
+.contact span.astrix{
+    position: absolute;
+    color: #ee3d3d;
+    right: 7px;
+    top: 6px;
+    font-size: 22px;
+}
+.contact input
+{
+    margin: 10px auto;
+    padding-left: 22px;;
+}
+.contact textarea{
+    padding: 0 25px;;
+}
+.contact input:not([type="submit"]) + i{
+    height: 0;
+    float: left;
+    position: relative;
+    top: -35px;
+    color: #999;
+    padding-left: 5px;
+}
+
+.contact .send-item{
+    float: left;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    color: #ffffff;
+    display: block;
+}
